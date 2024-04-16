@@ -180,6 +180,26 @@ body {
     min-height: 90vh;
     margin-top: 1rem;
 }
+.music-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+    z-index: 9999;
+}
+
+
+/* Your existing CSS styles */
+
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .music-icon {
+    animation: rotate 2s linear infinite;
+  }
+
 /* Tambahkan animasi untuk efek fade-in */
 .fade-in {
     animation: fadeIn ease 2s;
