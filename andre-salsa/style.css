@@ -175,9 +175,9 @@ body {
 }
 .gift {
     background-color: #8988;
-    padding-top: 10rem;
-    padding-bottom: 5rem;
-    min-height: 90vh;
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+    min-height: 85vh;
     margin-top: 1rem;
 }
 .music-icon {
@@ -188,17 +188,20 @@ body {
     z-index: 9999;
 }
 
-
 /* Your existing CSS styles */
 
-  @keyframes rotate {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
-  .music-icon {
+.music-icon {
     animation: rotate 2s linear infinite;
-  }
+}
 
 /* Tambahkan animasi untuk efek fade-in */
 .fade-in {

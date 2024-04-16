@@ -294,20 +294,14 @@
                 <div class="row justify-content-center text-center">
                     <div class="col-md-6">
                         <ul class="list-group">
-                              
                             <li class="list-group-item">
                                 <div class="fw-bold">NOMER DANA</div>
                                 0895360534586 - ANDRE DWI JULIANTO
                             </li>
                             <li class="list-group-item">
-                             
-                                
                                 <div class="fw-bold">via QR</div>
-                                <div>
-                                  
-                                ANDRE DWI JULIANTO
-                                </div>
-                              
+                                <div>ANDRE DWI JULIANTO</div>
+
                                 <img
                                     src="img/qr.jpg"
                                     alt="danaqr"
@@ -365,33 +359,31 @@
                 </div>
             </div>
         </footer>
-        <audio id="myAudio" src="/music/nano.mp3"></audio> <!-- Add your music file here -->
+        <audio id="myAudio" src="/music/nano.mp3"></audio>
+        <!-- Add your music file here -->
         <script>
-    function playMusic() {
-        var audio = document.getElementById("myAudio");
-        audio.play();
+            function playMusic() {
+                var audio = document.getElementById("myAudio");
+                audio.play();
 
-        // Tambahkan ikon musik jika belum ada
-        if (!document.querySelector(".music-icon")) {
-    var icon = document.createElement("i");
-    icon.classList.add("bi", "bi-music", "music-icon");
-    icon.style.position = "fixed";
-    icon.style.bottom = "20px";
-    icon.style.right = "20px";
-    icon.style.fontSize = "2rem";
-    icon.style.zIndex = "9999";
-    document.body.appendChild(icon);
-}
+                // Tambahkan ikon musik jika belum ada
+                if (!document.querySelector(".music-icon")) {
+                    var icon = document.createElement("i");
+                    icon.classList.add("bi", "bi-music", "music-icon");
+                    icon.style.position = "fixed";
+                    icon.style.bottom = "20px";
+                    icon.style.right = "20px";
+                    icon.style.fontSize = "2rem";
+                    icon.style.zIndex = "9999";
+                    document.body.appendChild(icon);
+                }
+            }
 
-    }
-
-    document.addEventListener("DOMContentLoaded", function() {
-        var linkButton = document.querySelector('a[href="#undangan"]');
-        linkButton.addEventListener("click", playMusic);
-    });
-</script>
-
-
+            document.addEventListener("DOMContentLoaded", function () {
+                var linkButton = document.querySelector('a[href="#undangan"]');
+                linkButton.addEventListener("click", playMusic);
+            });
+        </script>
 
         <script src="countdown/simplyCountdown.min.js"></script>
         <script
