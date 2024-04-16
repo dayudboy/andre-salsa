@@ -175,10 +175,10 @@ body {
 }
 .gift {
     background-color: #8988;
-    padding-top: 15rem;
-    padding-bottom: 10rem;
-    min-height: 85vh;
-    margin-top: 1rem;
+    padding-top: 13rem;
+    padding-bottom: 20rem;
+    min-height: 80vh;
+    margin-top: 5rem;
 }
 .music-icon {
     position: fixed;
